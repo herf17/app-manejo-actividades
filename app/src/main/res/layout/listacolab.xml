@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombre1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Nombre:"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtnombre1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Rnom"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/cargo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:text="cargo: "
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtcargo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Rc"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/estado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Estado:"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtestado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Re"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

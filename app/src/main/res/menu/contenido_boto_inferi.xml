@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicio"
+        android:enabled="true"
+        android:fontFamily="@font/aclonica"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Pagina principal" />
+    <item
+        android:id="@+id/calendario"
+        android:enabled="true"
+        android:fontFamily="@font/aclonica"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Tablero" />
+    <item
+        android:id="@+id/notificaciones"
+        android:enabled="true"
+        android:fontFamily="@font/aclonica"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notificaciones" />
+
+</menu>

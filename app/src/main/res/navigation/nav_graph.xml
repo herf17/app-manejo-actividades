@@ -1,0 +1,103 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.inge.Inicio"
+        android:label="Inicio"
+        tools:layout="@layout/inicio_layout" />
+
+    <fragment
+        android:id="@+id/ingresartrabajo"
+        android:name="com.example.inge.calendario2"
+        android:label="Ingresar Actividad"
+        tools:layout="@layout/calendar2" >
+        <argument
+            android:name="idproyparact"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Colaboradoresl"
+        android:name="com.example.inge.pestanas.ColaboradoresFragment"
+        android:label="Colaboradores"
+        tools:layout="@layout/fragment_colaboradores" >
+        <argument
+            android:name="pasardatos"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/IngColabl"
+        android:name="com.example.inge.IngColaborador"
+        android:label="Ingresar Colaborador"
+        tools:layout="@layout/ingresarcolaborador" >
+        <action
+            android:id="@+id/action_IngColabl_to_Colaboradosl"
+            app:destination="@id/Colaboradoresl" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/Agendal"
+        android:name="com.example.inge.Agendap"
+        android:label="Agenda Personal"
+        tools:layout="@layout/agendap" >
+        <argument
+            android:name="pasaragenda"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Objetivosl"
+        android:name="com.example.inge.pestanas.ObjetivosPricipalesFragment"
+        android:label="Objetivos Principales"
+        tools:layout="@layout/fragment_objetivos_pricipales" />
+
+    <fragment
+        android:id="@+id/notificaciones"
+        android:name="com.example.inge.Notificaciones"
+        android:label="Notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/calendario"
+        android:name="com.example.inge.calendario"
+        android:label="fragment_calendario"
+        tools:layout="@layout/fragment_calendario" >
+        <action
+            android:id="@+id/action_calendario_to_agregarPoyecto"
+            app:destination="@id/agregarPoyecto" />
+    </fragment>
+    <fragment
+        android:id="@+id/trabajo_seleccionado"
+        android:name="com.example.inge.Trabajo_seleccionado"
+        android:label="fragment_trabajo_seleccionado"
+        tools:layout="@layout/fragment_trabajo_seleccionado" >
+        <argument
+            android:name="idproy"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_trabajo_seleccionado_to_ingresartrabajo"
+            app:destination="@id/ingresartrabajo" />
+    </fragment><action android:id="@+id/action_global_trabajo_seleccionado" app:destination="@id/trabajo_seleccionado"/>
+
+    <fragment
+        android:id="@+id/iniciot"
+        android:name="com.example.inge.InicioTrabajadores"
+        android:label="Inicio Trabajadores"
+        tools:layout="@layout/inicio_trabajadores" />
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.inge.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/agregarPoyecto"
+        android:name="com.example.inge.AgregarPoyecto"
+        android:label="fragment_agregar_poyecto"
+        tools:layout="@layout/fragment_agregar_poyecto" />
+
+</navigation>

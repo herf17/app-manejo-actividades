@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Organizador de Tiempo y Trabajo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Inicio">Pagina de inicio</string>
+    <string name="notifi">Pagina notificaciones</string>
+    <string name="calendario">Pagina calendario</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="trabajos">
+        <item>Trabajo 1</item>
+        <item>Trabajo 2</item>
+        <item>Trabajo 3</item>
+        <item>Trabajo 4</item>
+        <item>Trabajo 5</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="objetivosprincipales">ObjetivosPrincipales</string>
+    <string name="colaboradores">colaboradores</string>
+    <string name="materiales">materiales</string>
+    <string name="detalles_trabajos">Detalles trabajos</string>
+
+    //array//
+    <array name="estado">
+        <item>Seleccione:</item>
+        <item>Activo</item>
+        <item>Inactivo</item>
+
+    </array>
+    <string-array name="trabajadores">
+        <item>Benjamin Quintero</item>
+        <item>Fermín Quintero</item>
+        <item>Alexander Batita</item>
+        <item>Manuel Batista</item>
+        <item>Israel Valdéz</item>
+        <item>Toni Pérez</item>
+        <item>Ricardo Gomez</item>
+    </string-array>
+
+    <string-array name="listan">
+        <item>Notificacion</item>
+
+    </string-array>
+</resources>

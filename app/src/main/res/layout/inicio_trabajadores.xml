@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Inicio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="O.T.T. TRABAJADORES"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/separador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="360dp"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#FFEB3B"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:text="------------------------------" />
+
+
+            <TableLayout
+                android:id="@+id/tabla"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="430dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <TableRow
+                    android:background="#99A6E1"
+                    android:padding="5dp"
+                    android:layout_height="1px">
+
+
+                    <TextView
+
+                        android:layout_width="204dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:text="Actividades"
+                        android:textColor="#FFEB3B"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/materiales"
+                    android:background="#F0F1FA"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/vermate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:textColor="#FFEB3B"
+                        android:textSize="30sp"
+                        android:text="Materiales" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/objetivot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F0F1FA"
+                    android:padding="5dp">
+
+
+                    <TextView
+                        android:id="@+id/verobj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/aclonica"
+                        android:gravity="center"
+                        android:textColor="#FFEB3B"
+                        android:textSize="30sp"
+                        android:text="Objetivos por realizar" />
+
+
+
+                </TableRow>
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="72dp"
+                app:srcCompat="@drawable/labor"
+                android:layout_marginLeft="76dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="126dp"
+                android:layout_height="99dp"
+                android:layout_below="@id/tabla"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="27dp"
+                app:srcCompat="@drawable/logo" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

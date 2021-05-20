@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etid"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tipomat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de material:"
+        android:gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/ettipomat"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad:"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#FFEB3B"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etcantidad"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bguardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:background="#6776B6"
+        android:backgroundTint="#FFD53B"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:shadowColor="#8C8A8A"
+        android:text="Guardar"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

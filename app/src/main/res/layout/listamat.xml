@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/id2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:text="ID:"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtid2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:text="Rid"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tmate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Tipo de material: "
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtmate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Rt"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cantidad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Cantidad: "
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtcantidad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Rc"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/aclonica"
+        android:text="Nombre:"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etnombre"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#FFEB3B"
+        android:hint="escribe el nombre aquí"
+        android:textColorHint="#FFEB3B"
+        android:fontFamily="@font/aclonica"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cargo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFEB3B"
+        android:fontFamily="@font/aclonica"
+        android:text="Cargo:"
+        android:gravity="center_horizontal"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etcargo"
+        style="@android:style/Widget.DeviceDefault.Light.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#FFEB3B"
+        android:hint="escribe el cargo aquí"
+        android:textColorHint="#FFEB3B"
+        android:gravity="center_horizontal"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:textColor="#FFEB3B"
+        android:text="Estado"
+        android:textSize="30sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@id/estado"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:entries="@array/estado"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp"
+        android:theme="@style/Campoazul" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#000000"
+        android:backgroundTint="#FFD53B"
+        android:fontFamily="@font/aclonica"
+        android:shadowColor="#8C8A8A"
+        android:text="Guardar"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

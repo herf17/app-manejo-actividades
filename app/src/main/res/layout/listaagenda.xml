@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombreact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Nombre de actividad:"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtnombreact"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:text="Rn"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:text="Fecha: "
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtfecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:fontFamily="@font/acme"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Hora: "
+            android:gravity="center"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txthora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/prioridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Prioridad:"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtprioridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/acme"
+            android:text="Rp"
+            android:gravity="center"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Mensaje:"
+            android:textColor="#FFEB3B"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtmensaje"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:text="Rm"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
